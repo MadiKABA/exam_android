@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tab_hopitaux">
+
+        <item>HÔPITAL PRINCIPAL DE DAKAR</item>
+        <item>CLINIQUE MEDIC’KANE</item>
+        <item>CLINIQUE CHEIKH ANTA DIOP</item>
+        <item>CLINIQUE PASTEUR</item>
+        <item>CLINIQUE DE LA MADELEINE</item>
+    </string-array>
+
+    <string-array name="tab_detail">
+
+        <item>1, avenue Nelson Mandela,B.P. 3006 – Dakar,Tél. : 33 839 50 50</item>
+        <item>81, Square Sacré Coeur 3,VDN, à côté de Puzzle,Mermoz – Sacré-Cœur,Dakar,Tél. : 33 859 49 49</item>
+        <item>4,5 – Avenue Cheikh Anta Diop,face Hôpital Fann,B.P. 3435,Dakar,Tél. : 33 824 20 7</item>
+        <item>50, rue Carnot,B.P. 2392,Tél. : 33 822 13 13</item>
+        <item>18, ave. des Jambaars,B.P. 3500 Dakar,Tél. : 33 889 94 70</item>
+
+    </string-array>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/dim_all"
+    android:orientation="vertical"
+    android:background="@mipmap/sante2"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="@dimen/dim_title"
+        android:text="@string/connection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/txtLogin"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/txtPassword"
+        android:layout_marginTop="@dimen/dim_top"
+        android:hint="@string/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green_connect"
+        android:layout_marginRight="@dimen/dim_right"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:text="@string/connect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/green_connect"
+        android:layout_marginRight="@dimen/dim_right"
+        android:layout_marginLeft="@dimen/dim_left"
+        android:text="@string/sign_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
